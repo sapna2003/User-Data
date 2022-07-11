@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase App</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>CRUD With Firebase</h2>
+        <hr>
+        <div class="form">
+            
+            <form action="">
+                    
+                    RollNo.:&nbsp;&nbsp;<input type="text" id="rollBox"><br><br>
+                    Name:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="nameBox"><br><br>
+                    Gender:&nbsp;&nbsp;<select name="" id="genBox"><br><br>
+                        <option selected disabled>select Option</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="others">others</option>
+                    </select>
+                    <br><br>
+                    Address: <input type="text" id="addBox">
+                <div class="btns">
+                    <button class="btn">Insert</button>
+                    <button class="btn">Read</button>
+                    <button class="btn">Update</button>
+                    <button class="btn">Delete</button>
+                </div>
+                <a href="./user.html">List Of Users</a>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="./FirebaseConfig.js"></script>
+    <script type="module" src="./index.js"></script>
+    
+</body>
+</html>
